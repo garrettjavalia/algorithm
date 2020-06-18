@@ -5,6 +5,7 @@ int weight[101] = { 0 };//무게
 int value[101] = { 0 };//가치
 int memory[101][1000001] = { 0 };//부분집합의 최대가치
 
+
 int main(int argc, char* argv[]) {
 
 	std::iostream::sync_with_stdio(false);
