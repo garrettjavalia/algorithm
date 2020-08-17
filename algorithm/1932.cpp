@@ -6,6 +6,7 @@ int dp[2][501] = { 0 };
 int main(int argc, char* argv[]) {
 
 	std::iostream::sync_with_stdio(false);
+	std::cin.tie(nullptr);
 
 	int n = 0;
 	int dpmax = 0;
