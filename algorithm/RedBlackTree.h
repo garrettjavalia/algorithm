@@ -13,6 +13,7 @@ template <typename T> class RedBlackTreeNode{
 
 	template <typename T> friend class RedBlackTree;
 	RBColor color;
+	RedBlackTreeNode<T>* parent;
 	RedBlackTreeNode<T>* left;
 	RedBlackTreeNode<T>* right;
 	T data;
@@ -28,6 +29,7 @@ template <typename T> class RedBlackTreeNode{
 			this->left = this;
 			this->right = this;
 		}
+		this->parent = nullptr;
 
 	}
 
@@ -82,9 +84,11 @@ public:
 			}
 			if (p->data > data) {
 				p->left = new RedBlackTreeNode<T>(data, nilNode);
+				p->left->parent = p;
 			}
 			else {
 				p->right = new RedBlackTreeNode<T>(data, nilNode);
+				p->right->parent = p;
 			}
 		}
 	}
