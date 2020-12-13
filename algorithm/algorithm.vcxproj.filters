@@ -13,70 +13,85 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\BOJ">
+      <UniqueIdentifier>{67b37221-dda9-4631-8b71-68fc8b55eb20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UVa">
+      <UniqueIdentifier>{7745c8c8-f5b0-4390-8268-fa822ef715eb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RBTreeTest.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="BOJ1932.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ2156.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ2163.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ2231.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ2579.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ2579-2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ2798.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ3678.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ3678-2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ5557-1.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ5557-2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ10803-1.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ10803-2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="BOJ12856-2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="BOJ12865.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="BOJ11053.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
-    <ClCompile Include="UVa11172.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="BOJ12856-2.cpp">
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
-    <ClCompile Include="UVa11498.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="UVa11727.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="BOJ12865.cpp">
+      <Filter>소스 파일\BOJ</Filter>
     </ClCompile>
     <ClCompile Include="UVa10114.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\UVa</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa11172.cpp">
+      <Filter>소스 파일\UVa</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa11498.cpp">
+      <Filter>소스 파일\UVa</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa11727.cpp">
+      <Filter>소스 파일\UVa</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa11559.cpp">
+      <Filter>소스 파일\UVa</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa11799.cpp">
+      <Filter>소스 파일\UVa</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa00573.cpp">
+      <Filter>소스 파일\UVa</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
