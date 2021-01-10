@@ -93,6 +93,12 @@
     <ClCompile Include="UVa00573.cpp">
       <Filter>소스 파일\UVa</Filter>
     </ClCompile>
+    <ClCompile Include="UVa10141.cpp">
+      <Filter>소스 파일\UVa</Filter>
+    </ClCompile>
+    <ClCompile Include="UVa11507.cpp">
+      <Filter>소스 파일\UVa</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="RedBlackTree.h">
