@@ -72,12 +72,11 @@ int main(){
                         res = ft.rangeSumQuery(i, i);
                         first = false;
                     }else{
-                        res *= ft.rangeSumQuery(i, i);
+                        res = res * ft.rangeSumQuery(i, i);
                     }
-                    std::cout << "현재 res" << res << "\n";
                     if(res == 0){
                         break;
-                    }else if(res > 1){
+                    }else if(res > 0){
                         res = 1;
                     }else{
                         res = -1;
@@ -91,7 +90,8 @@ int main(){
                     std::cout << '-';
                 }
             }else if(cmd == 'C'){
-                ft.adjust(a1, a2);
+                int res = ft.rangeSumQuery(a1, a1);
+                ft.adjust(a1, a2 - res);
             }
         }
 

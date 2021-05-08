@@ -14,10 +14,7 @@
 				"${file}"
 			],
 			"options": {
-				"cwd": "${workspaceFolder}",
-				"env": {
-					"BUILD": "cl.exe"
-				}
+				"cwd": "${workspaceFolder}"
 			},
 			"problemMatcher": [
 				"$msCompile"
