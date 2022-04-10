@@ -1,0 +1,24 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "algorithm study of javalia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettjavalia/algorithm.git"
+  },
+  "author": "javalia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garrettjavalia/algorithm/issues"
+  },
+  "homepage": "https://github.com/garrettjavalia/algorithm#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
