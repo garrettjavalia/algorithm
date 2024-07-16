@@ -340,3 +340,8 @@ ASALocalRun/
 healthchecksdb
 *.exe
 *.txt
+
+
+# Added by cargo
+
+/target
